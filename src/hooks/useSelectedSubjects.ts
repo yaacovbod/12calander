@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 
-const STORAGE_KEY = 'exam11.selectedSubjects'
+const STORAGE_KEY = 'exam12.selectedSubjects'
 
 export function useSelectedSubjects() {
   const [selected, setSelected] = useState<Set<string>>(new Set())
