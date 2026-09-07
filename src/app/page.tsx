@@ -26,7 +26,7 @@ export default function Home() {
             className="school-logo"
             priority
           />
-          <h1 className="page-title">לוח מבחנים שכבת י"ב<br />נעימת הלב</h1>
+          <h1 className="page-title">לוח מבחנים שכבת י"א<br />נעימת הלב</h1>
           <p className="page-sub">עדכון אחרון: {buildTimestamp()}</p>
         </header>
         <SchedulePage />

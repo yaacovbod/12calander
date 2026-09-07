@@ -115,6 +115,9 @@ export const schedule: MonthGroup[] = [
       { start: '20270126', end: '20270129', day: 'שלישי עד חמישי', display: '26–28/01/2027', events: [
         { title: 'מרתון מטלה מתוקשבת בתנ"ך', cat: 'marathon', tags: ['מרתון', 'תנ"ך'] },
       ]},
+      { start: '20270128', end: '20270129', day: 'יום חמישי', display: '28/01/2027', events: [
+        { title: 'סוף מחצית א׳', cat: 'holiday', tags: ['מחצית'] },
+      ]},
     ],
   },
 ]
