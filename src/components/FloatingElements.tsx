@@ -82,8 +82,8 @@ export default function FloatingElements() {
             left: ${left}%;
             opacity: 0;
             animation: floatUp linear infinite;
-            animation-duration: ${(16 + i * 3.5).toFixed(1)}s;
-            animation-delay: ${(-(Math.random() * 20)).toFixed(1)}s;
+            animation-duration: ${(45 + i * 8).toFixed(1)}s;
+            animation-delay: ${(-(Math.random() * 45)).toFixed(1)}s;
             filter: drop-shadow(0 2px 4px #2a5c8b30);
             pointer-events: none;
           `
