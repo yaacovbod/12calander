@@ -27,10 +27,24 @@ export const CUTOFF_DATE = new Date(2027, 1, 1) // 01/02/2027 — past end of cu
 
 export const schedule: MonthGroup[] = [
   {
+    month: 'ספטמבר 2026',
+    items: [
+      { start: '20260916', end: '20260917', day: 'יום רביעי', display: '16/09/2026', events: [
+        { title: 'יום מכינות ושנות שירות', cat: 'army', tags: ['הכנה לצה"ל'] },
+      ]},
+    ],
+  },
+  {
     month: 'אוקטובר 2026',
     items: [
+      { start: '20261014', end: '20261015', day: 'יום רביעי', display: '14/10/2026', events: [
+        { title: 'מסע בעקבות לוחמים', cat: 'trip', tags: ['טיול'] },
+      ]},
       { start: '20261019', end: '20261020', day: 'יום שני', display: '19/10/2026', events: [
         { title: 'מבחן משלימים היסטוריה', cat: 'mivhan', tags: ['מבחן'] },
+      ]},
+      { start: '20261025', end: '20261026', day: 'יום ראשון', display: '25/10/2026', events: [
+        { title: 'הרצאה הכנה לצה"ל', cat: 'army', tags: ['הכנה לצה"ל'] },
       ]},
       { start: '20261026', end: '20261027', day: 'יום שני', display: '26/10/2026', events: [
         { title: 'מבחן באנגלית', cat: 'mivhan', tags: ['מבחן'] },
@@ -48,6 +62,9 @@ export const schedule: MonthGroup[] = [
       ]},
       { start: '20261122', end: '20261123', day: 'יום ראשון', display: '22/11/2026', events: [
         { title: 'סימולציה בגרות BOOST/COBE באנגלית', cat: 'metakonet', tags: ['סימולציה', 'BOOST/COBE'] },
+      ]},
+      { start: '20261123', end: '20261127', day: 'שני עד חמישי', display: '23–26/11/2026', events: [
+        { title: 'טיול שנתי — הרי אילת', cat: 'trip', tags: ['טיול שנתי'] },
       ]},
       { start: '20261130', end: '20261201', day: 'יום שני', display: '30/11/2026', events: [
         { title: 'מבחן אשכול א׳ — תקשורת, מוט"ל, אמנות, מדעי המחשב', cat: 'mivhan', tags: ['מבחן', 'אשכול א׳'] },
