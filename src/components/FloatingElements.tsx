@@ -4,8 +4,8 @@ import { useEffect, useRef } from 'react'
 
 const SCHOOL_ITEMS = [
   '✏️','📚','📐','📏','🔬','📓','🖊️','🧮','⚗️','🎒',
-  '📌','💡','✂️','🖍️','📎','🔭','📊','📋','✏️','📚',
-  '📐','🔬','🎒','💡',
+  '💡','🔭','📊','🎓','📖','🧪','🧬','📝','📘','📗',
+  '📕','🖋️','📈','🗺️','🧭','📙',
 ]
 
 const SUMMER_ITEMS = [
@@ -67,23 +67,28 @@ export default function FloatingElements() {
     })
 
     if (!IS_SUMMER) {
-      const logoPositions = [8, 28, 50, 72, 90]
-      logoPositions.forEach((left, i) => {
-        const img = document.createElement('img')
-        img.src    = '/neimat.png'
-        img.width  = 38 + (i % 3) * 10
-        img.style.cssText = `
-          position: absolute;
-          bottom: -80px;
-          left: ${left}%;
-          opacity: 0;
-          animation: floatUp linear infinite;
-          animation-duration: ${(16 + i * 3.5).toFixed(1)}s;
-          animation-delay: ${(-(Math.random() * 20)).toFixed(1)}s;
-          filter: drop-shadow(0 2px 4px #2a5c8b30);
-          pointer-events: none;
-        `
-        container.appendChild(img)
+      const logos = [
+        { src: '/neimat.png',  positions: [8, 28, 50, 72, 90] },
+        { src: '/branco.webp', positions: [18, 40, 62, 82] },
+      ]
+      logos.forEach(({ src, positions }) => {
+        positions.forEach((left, i) => {
+          const img = document.createElement('img')
+          img.src   = src
+          img.width = 38 + (i % 3) * 10
+          img.style.cssText = `
+            position: absolute;
+            bottom: -80px;
+            left: ${left}%;
+            opacity: 0;
+            animation: floatUp linear infinite;
+            animation-duration: ${(16 + i * 3.5).toFixed(1)}s;
+            animation-delay: ${(-(Math.random() * 20)).toFixed(1)}s;
+            filter: drop-shadow(0 2px 4px #2a5c8b30);
+            pointer-events: none;
+          `
+          container.appendChild(img)
+        })
       })
     }
   }, [])
