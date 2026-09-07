@@ -6,7 +6,7 @@ import { catColors, CUTOFF_DATE, type EventItem, type MonthGroup } from '@/data/
 const MONTH_NAMES = ['ינואר','פברואר','מרץ','אפריל','מאי','יוני','יולי','אוגוסט','ספטמבר','אוקטובר','נובמבר','דצמבר']
 const DAY_NAMES   = ['א׳','ב׳','ג׳','ד׳','ה׳','ו׳','ש׳']
 
-const MONTHS_TO_SHOW: [number, number][] = [[2025,9],[2025,10],[2025,11],[2026,0]]
+const MONTHS_TO_SHOW: [number, number][] = [[2026,9],[2026,10],[2026,11],[2027,0]]
 
 function dateKey(d: Date): string {
   return `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`

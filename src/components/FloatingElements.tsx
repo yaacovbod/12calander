@@ -22,7 +22,7 @@ const TEXT_ITEMS = [
   { text: 'x²',      style: 'font-family:serif;font-weight:bold;color:#4A6A8A;font-size:1.2rem' },
 ]
 
-const IS_SUMMER = new Date() >= new Date(2026, 5, 19)
+const IS_SUMMER = new Date() >= new Date(2027, 5, 19)
 
 export default function FloatingElements() {
   const containerRef = useRef<HTMLDivElement>(null)

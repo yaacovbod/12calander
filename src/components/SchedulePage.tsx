@@ -6,8 +6,8 @@ import { schedule as staticSchedule, EventCategory, DateItem, type MonthGroup } 
 import EventCard from './EventCard'
 
 const EXAM_CATS = new Set<EventCategory>(['mivhan', 'metakonet', 'bagrut'])
-const SCHOOL_YEAR_END = new Date(2026, 5, 19)
-const ALL_EXAMS_DONE  = new Date(2026, 6, 11)
+const SCHOOL_YEAR_END = new Date(2027, 5, 19)
+const ALL_EXAMS_DONE  = new Date(2027, 6, 11)
 
 const CalendarView = dynamic(() => import('./CalendarView'), { ssr: false })
 
