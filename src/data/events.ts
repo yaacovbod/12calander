@@ -120,6 +120,14 @@ export const schedule: MonthGroup[] = [
       ]},
     ],
   },
+  {
+    month: 'פברואר 2027',
+    items: [
+      { start: '20270201', end: '20270202', day: 'יום שני', display: '01/02/2027', events: [
+        { title: 'בגרות בהיסטוריה משלימים', cat: 'bagrut', tags: ['בגרות', 'היסטוריה', 'משלימים'] },
+      ]},
+    ],
+  },
 ]
 
 export const catColors: Record<EventCategory, { bg: string; color: string; border: string }> = {
