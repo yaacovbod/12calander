@@ -68,8 +68,8 @@ export default function FloatingElements() {
 
     if (!IS_SUMMER) {
       const logos = [
-        { src: '/neimat.png',  positions: [8, 28, 50, 72, 90] },
-        { src: '/branco.webp', positions: [18, 40, 62, 82] },
+        { src: '/neimat.png',  positions: [15, 55, 88] },
+        { src: '/branco.webp', positions: [35, 75] },
       ]
       logos.forEach(({ src, positions }) => {
         positions.forEach((left, i) => {
