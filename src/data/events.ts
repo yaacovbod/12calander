@@ -31,7 +31,7 @@ export const schedule: MonthGroup[] = [
     items: [
       { start: '20260916', end: '20260917', day: 'יום רביעי', display: '16/09/2026', events: [
         { title: 'יום מכינות ושנות שירות', cat: 'army', tags: ['הכנה לצה"ל'] },
-        { title: 'מבחן במתמטיקה', cat: 'mivhan', tags: ['מבחן', 'מתמטיקה'] },
+        { title: 'מבחן במתמטיקה 4-5 יחל', cat: 'mivhan', tags: ['מבחן', 'מתמטיקה'] },
       ]},
     ],
   },
