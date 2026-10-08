@@ -107,6 +107,9 @@ export const schedule: MonthGroup[] = [
       { start: '20270106', end: '20270107', day: 'יום רביעי', display: '06/01/2027', events: [
         { title: 'מבחן אשכול א׳', cat: 'mivhan', tags: ['מבחן', 'אשכול א׳'] },
       ]},
+      { start: '20270114', end: '20270115', day: 'יום חמישי', display: '14/01/2027', events: [
+        { title: 'מבחן הערכה חלופית תנ"ך משלימים (י"ב)', cat: 'mivhan', tags: ['מבחן', 'תנ"ך', 'משלימים'] },
+      ]},
       { start: '20270119', end: '20270120', day: 'יום שלישי', display: '19/01/2027', events: [
         { title: 'מבחן אשכול ב׳', cat: 'mivhan', tags: ['מבחן', 'אשכול ב׳'] },
       ]},
