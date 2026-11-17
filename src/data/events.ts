@@ -67,14 +67,14 @@ export const schedule: MonthGroup[] = [
       { start: '20261123', end: '20261127', day: 'שני עד חמישי', display: '23–26/11/2026', events: [
         { title: 'טיול שנתי — הרי אילת', cat: 'trip', tags: ['טיול שנתי'] },
       ]},
-      { start: '20261130', end: '20261201', day: 'יום שני', display: '30/11/2026', events: [
-        { title: 'מבחן אשכול א׳ — תקשורת, מוט"ל, אמנות, מדעי המחשב', cat: 'mivhan', tags: ['מבחן', 'אשכול א׳'] },
-      ]},
     ],
   },
   {
     month: 'דצמבר 2026',
     items: [
+      { start: '20261201', end: '20261202', day: 'יום שלישי', display: '01/12/2026', events: [
+        { title: 'מבחן אשכול א׳ — תקשורת, מוט"ל, אמנות, מדעי המחשב', cat: 'mivhan', tags: ['מבחן', 'אשכול א׳'] },
+      ]},
       { start: '20261202', end: '20261203', day: 'יום רביעי', display: '02/12/2026', events: [
         { title: 'בגרות BOOST/COBE באנגלית', cat: 'bagrut', tags: ['בגרות', 'BOOST/COBE'] },
       ]},
